@@ -6,4 +6,7 @@ export const exampleRouter = router({
     ctx.req.log.info(input, "example");
     return input;
   }),
+  another: publicProcedure.query(({ ctx, input }) => {
+    return "hello";
+  }),
 });
