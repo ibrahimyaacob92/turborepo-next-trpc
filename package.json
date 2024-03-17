@@ -11,6 +11,8 @@
     "build": "turbo run build",
     "build-backend": "turbo run build --filter=api",
     "start-backend": "turbo run start --filter=api",
+    "build-web": "turbo run build --filter=web",
+    "start-web": "turbo run start --filter=web",
     "dev": "turbo run dev --parallel --force",
     "lint": "turbo run lint --filter=!schema --filter=!ui",
     "test": "turbo run test",
