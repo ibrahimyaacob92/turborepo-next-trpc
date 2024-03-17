@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "turbo run build",
+    "build-backend": "turbo run build --filter=api",
     "dev": "turbo run dev --parallel --force",
     "lint": "turbo run lint --filter=!schema --filter=!ui",
     "test": "turbo run test",
