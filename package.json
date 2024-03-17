@@ -1,0 +1,28 @@
+{
+  "name": "fastify-trpc-next",
+  "version": "0.0.0",
+  "repository": "https://github.com/maybemaby/fastify-trpc-next",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel --force",
+    "lint": "turbo run lint --filter=!schema --filter=!ui",
+    "test": "turbo run test",
+    "test:e2e": "turbo run test:e2e",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "start": "turbo run start"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "prettier": "^2.8.4",
+    "turbo": "^1.8.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "packageManager": "pnpm@7.20.0"
+}
