@@ -94,8 +94,8 @@ importers:
         specifier: ^10.7.0
         version: 10.7.0(@trpc/server@10.7.0)
       '@trpc/next':
-        specifier: ^10.7.0
-        version: 10.7.0(@tanstack/react-query@4.20.4)(@trpc/client@10.7.0)(@trpc/react-query@10.7.0)(@trpc/server@10.7.0)(next@13.2.3)(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^10.45.2
+        version: 10.45.2(@tanstack/react-query@4.20.4)(@trpc/client@10.7.0)(@trpc/react-query@10.7.0)(@trpc/server@10.7.0)(next@13.2.3)(react-dom@18.2.0)(react@18.2.0)
       '@trpc/react-query':
         specifier: ^10.7.0
         version: 10.7.0(@tanstack/react-query@4.20.4)(@trpc/client@10.7.0)(@trpc/server@10.7.0)(react-dom@18.2.0)(react@18.2.0)
@@ -1822,13 +1822,13 @@ packages:
       '@trpc/server': 10.7.0
     dev: false
 
-  /@trpc/next@10.7.0(@tanstack/react-query@4.20.4)(@trpc/client@10.7.0)(@trpc/react-query@10.7.0)(@trpc/server@10.7.0)(next@13.2.3)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-ZLY4J9IgEHN2op0UM14NCwCDyodRUw8Pmxgnpr62+UMIhDll6uggb2an8Op87l9EeYdKhKe2VavDWphI8vFGgw==}
+  /@trpc/next@10.45.2(@tanstack/react-query@4.20.4)(@trpc/client@10.7.0)(@trpc/react-query@10.7.0)(@trpc/server@10.7.0)(next@13.2.3)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-RSORmfC+/nXdmRY1pQ0AalsVgSzwNAFbZLYHiTvPM5QQ8wmMEHilseCYMXpu0se/TbPt9zVR6Ka2d7O6zxKkXg==}
     peerDependencies:
-      '@tanstack/react-query': ^4.3.8
-      '@trpc/client': 10.7.0
-      '@trpc/react-query': ^10.0.0-proxy-beta.21
-      '@trpc/server': 10.7.0
+      '@tanstack/react-query': ^4.18.0
+      '@trpc/client': 10.45.2
+      '@trpc/react-query': 10.45.2
+      '@trpc/server': 10.45.2
       next: '*'
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -1840,7 +1840,6 @@ packages:
       next: 13.2.3(@babel/core@7.20.7)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      react-ssr-prepass: 1.5.0(react@18.2.0)
     dev: false
 
   /@trpc/react-query@10.7.0(@tanstack/react-query@4.20.4)(@trpc/client@10.7.0)(@trpc/server@10.7.0)(react-dom@18.2.0)(react@18.2.0):
@@ -6884,14 +6883,6 @@ packages:
   /react-is@18.2.0:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
     dev: true
-
-  /react-ssr-prepass@1.5.0(react@18.2.0):
-    resolution: {integrity: sha512-yFNHrlVEReVYKsLI5lF05tZoHveA5pGzjFbFJY/3pOqqjGOmMmqx83N4hIjN2n6E1AOa+eQEUxs3CgRnPmT0RQ==}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-    dependencies:
-      react: 18.2.0
-    dev: false
 
   /react@18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
